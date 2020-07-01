@@ -112,9 +112,6 @@ ul li {
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 }
-#header .header-content img {
-	width : 70px;
-}
 #header .logo {
 	font-size: 21px;
 	color:#6c7279;
@@ -301,8 +298,13 @@ ul li {
 }
 .carousel {
 	width: 94%;
-	height: 500px;
+	height: 800px;
 	margin: auto;
+}
+.carousel img {
+	display:block;
+	margin-right:auto;
+	margin-left:auto
 }
 .item, .active, .carousel-inner {
 	height: 100%;
@@ -482,24 +484,24 @@ ul li {
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	width: 94%;
 	margin: auto;
 	text-align: left;
 	padding-top: 5%;
 	padding-bottom: 7%;
+	background-color: #666;
 }
 .footer h4 {
 	font-size: 13px;
-	color: #000;
+	color: #fff;
 	margin: 0 0 15px 0;
 	padding: 0px;
 }
 .footer p {
 	font-size: 11px;
-	color: #6c7279;
+	color: #c5d0dd;
 }
 .footer a {
-	color: #000;
+	color: #fff;
 }
 .footer a:hover {
 	text-decoration: underline;
@@ -514,7 +516,7 @@ ul li {
 .footer .footer-share a {
 	border: none;
 	font-size: 13px;
-	color: #000;
+	color: rgb(255, 255, 255);
 	letter-spacing: 15px;
 }
 .footer .fa-heart {
