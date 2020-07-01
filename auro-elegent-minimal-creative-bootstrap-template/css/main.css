@@ -343,39 +343,25 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Services
 -------------------------------------------------------------------------------*/
-.services {
+.company {
 	width: 94%;
 	margin: auto;
 	background-color: #f2f2f2;
+	padding : 10px 200px 10px 200px;
 }
-.services h4 {
-	font-size: 33px;
-	line-height: 33px;
-	letter-spacing: 2px;
-	font-weight: 300;
+.company dt {
+	margin-bottom : 50px;
 }
-.services h5 {
-	font-size: 21px;
-	font-weight: 300;
-	margin-bottom: 10%;
-	text-transform: none;
+.company dd {
+	margin-bottom : 50px;
 }
-.services p {
-	color: #6c7279;
-	font-size: 13px;
-	font-weight: 400;
-	margin-top: 7%;
+.company-content {
+	padding-top : 50px;
 }
-.services-content {
-	margin: 50px;
+.company h2{
+	color : #6c7279
 }
-.services-content li a {
-	color: #6c7279;
-	line-height: 30px;
-}
-.services-content li a:hover {
-	color: #000;
-}
+
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
