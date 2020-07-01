@@ -114,7 +114,7 @@ ul li {
 }
 #header .logo {
 	font-size: 21px;
-	color: #000;
+	color:#6c7279;
 	font-weight: 700;
 	float: left;
 	text-transform: uppercase;
@@ -341,13 +341,13 @@ ul li {
 	text-shadow: none;
 }
 /* ------------------------------------------------------------------------------
-	 Services
+	 Company
 -------------------------------------------------------------------------------*/
 .company {
 	width: 94%;
 	margin: auto;
 	background-color: #f2f2f2;
-	padding : 10px 200px 10px 200px;
+	padding : 20px 200px 10px 200px;
 }
 .company dt {
 	margin-bottom : 50px;
@@ -355,13 +355,113 @@ ul li {
 .company dd {
 	margin-bottom : 50px;
 }
+.company dl {
+	width:100%;
+}
 .company-content {
 	padding-top : 50px;
 }
 .company h2{
-	color : #6c7279
+	color : #6c7279;
+	width : 180px;
+}
+@media screen and (max-width: 1380px), (max-device-width: 1380px){
+.company {
+    width: calc(100% - 100px);
+    padding: 10px 160px;
+}
+}
+@media screen and (max-width: 1100px), (max-device-width: 1100px){
+.company {
+    padding: 10px 120px;
+}
+}
+@media screen and (max-width: 1000px), (max-device-width: 1000px){
+.company {
+    padding: 10px 40px;
+}
+.company dd{
+	border-bottom : 1px solid #949494;
+}
+.company dt {
+	margin-bottom : 20px;
+}
+}
+/* ------------------------------------------------------------------------------
+	 Identity
+-------------------------------------------------------------------------------*/
+.identity {
+	width: 94%;
+	margin: auto;
+	margin-top : 100px;
+	background-color: #f2f2f2;
+	padding : 20px 20px 10px 20px;
+}
+.identity-content {
+	padding-top : 50px;
+}
+.identity h2{
+	color : #6c7279;
+	width:180px;
+}
+.identity img {
+	width : 250px;
+	height : 250px;
+	margin-top:50px;
+	margin-bottom:10px;
+}
+.identity p {
+	text-align: center;
+	font-size: larger;
+	font-weight:bold;
+}
+@media screen and (max-width: 1380px), (max-device-width: 1380px){
+.identity {
+    width: calc(100% - 100px);
+    padding: 100px 20px;
+}
+}
+@media screen and (max-width: 1100px), (max-device-width: 1100px){
+.identity {
+    padding: 100px 20px;
+}
+}
+@media screen and (max-width: 1000px), (max-device-width: 1000px){
+.identity {
+    padding: 20px;
+}
+.identity dd{
+	border-bottom : 1px solid #949494;
+}
+.identity dt {
+	margin-bottom : 20px;
+}
+}
+/* ------------------------------------------------------------------------------
+	 Contact
+-------------------------------------------------------------------------------*/
+.contact {
+	width: 60%;
+	margin: auto;
+	margin-top : 100px;
+	background-color: #e4fff5;
+	padding : 20px 20px 10px 20px;
+	border-radius: 5px;
 }
 
+.contact h2{
+	color : #6c7279;
+	width:180px;
+	margin-bottom: 40px;;
+}
+.contact-submit {
+	width :100px;
+	height:50px;
+	text-align: center;
+	border:1px solid #00ccff;
+	border-radius: 5px;
+	background-color: #00ffff;
+}
 /* ------------------------------------------------------------------------------
 	 Portfolio
 -------------------------------------------------------------------------------*/
